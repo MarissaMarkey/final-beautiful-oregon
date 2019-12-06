@@ -1,0 +1,57 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="images/heart.jpg" rel="icon" type="image/x-icon" />
+		<title>Oregon</title>
+		<link rel="stylesheet" href="oregoncss.css" />
+		<link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div class="widecol">
+			<div class="title">
+				Beautiful Oregon
+			</div>
+			<div class="mainimg">
+				<img class="oregon" id="mainimg" src="images/oregon.png" onclick="CheckIfDone2()" a href=""> <!--this is the onclick function that checks if the image has been changed. There is a blank a href tag so that the link can be added into it.-->
+			</div>
+			<div class="places">
+				<div class="smallboxes border" onclick="changeSand()" id="sandbutton">
+					Sand Dunes
+				</div>
+				<div class="smallboxes border" onclick="changeForest()" id="forestbutton">
+					Forests
+				</div>
+				<div class="smallboxes border" onclick="changeBeach()" id="beachbutton">
+					Beaches
+				</div>
+				<div class="smallboxes" onclick="changeCity()" id="citybutton">
+					Cities
+				</div>
+			</div>
+		</div>
+		<div class="widecol2">
+			<div class="narrowcol">
+				<div class="img">
+					<img class="startingimages gray imghover" id="sand" src="images/sandunes.png" onclick="addColorS()">
+				</div>
+				<div class="img">
+					<img class="startingimages gray imghover" id="beach" src="images/oregonbeachjump.png" onclick="addColorB()">
+				</div>
+			</div>
+			<div class="narrowcol" id="narrowcol2">
+				<div class="img">
+					<img class="startingimages gray imghover" id="forest" src="images/forest+falls.png" onclick="addColorF()">
+				</div>
+				<div class="img">
+					<img class="startingimages gray imghover" id="city" src="images/portland.jpg" onclick="addColorC()">
+				</div>
+			</div>
+		</div>
+		<script src="oregon.js"></script>
+	</body>
+	
+	
+</html>

@@ -1,0 +1,224 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: flex;
+	background-color: #E0FFFF;
+	cursor: url('http://www.rw-designer.com/cursor-extern.php?id=96876'), auto;
+}
+
+.widecol {
+	height: 100%;
+	width: calc(100%/2);
+	display: block;
+	border-right: 5px black solid;
+}
+
+.widecol2{
+	height: 100%;
+	width: 50%;
+	display: flex;
+}
+
+.title {
+	height: calc(100%/5);
+	width: 100%;
+	display: flex;
+	background-color: #1E7626;
+	font-size: 70px;
+	color: white;
+	font-family: 'Staatliches', cursive;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.mainimg {
+	height: 60%;
+	width: 100%;
+	display: flex;
+	background-color: #E0FFFF;
+}
+
+.oregon {
+	display: flex;
+	max-height: 90%;
+	max-width: 90%;
+	margin-top: 80px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	align-items: center;
+	justify-content: center;
+}
+
+.places {
+	height: 20%;
+	width: 100%;
+	display: flex;
+}
+
+.smallboxes {
+	height: 100%;
+	width: 25%;
+	display: flex;
+	background-color: #1E7626;
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	font-family: 'Staatliches', cursive;
+	align-items: center;
+	justify-content: center;
+	text-shadow: 4px 4px #0A0F91;
+}
+
+.border {
+	border-right: 5px black solid;
+}
+
+.narrowcol {
+	height: 100%;
+	width: 50%;
+	display: block;
+	background-color: #E0FFFF;
+}
+
+.img {
+	height: 50%;
+	width: 100%;
+	display: flex;
+	background-color: #E0FFFF;
+	align-items: center;
+	justify-content: center;
+}
+
+.gray {
+	filter: grayscale(100%);
+}
+
+.startingimages {
+	max-width: 85%;
+	max-height: 85%;
+	border: 5px solid;
+}
+
+.smallboxes:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.imghover:hover {
+	cursor: pointer;
+}
+
+.smallboxes:active {
+	filter:brightness(150%);
+	transform: rotate(20deg);
+}
+
+.oregonone:hover {
+  transform: scale(1.2); 
+  cursor: pointer;
+} /*This class is added when the CheckIfDone function is used so that the image gets bigger when you hover*/
+
+.pressed {
+	background-color: #618663;
+}
+
+@media only screen and (max-width: 1250px) {
+	body {
+		display: block;
+	}
+	
+	.widecol {
+		height: 50%;
+		width: 100%;
+		display: block;
+		border-right: none;
+	}
+	
+	.title {
+		height: 20%;
+		width: 100%;
+	}
+	
+	.mainimg {
+		height: 60%;
+		width: 100%;
+	}
+	
+	.places {
+		height: 20%;
+		width: 100%;
+	}
+	
+	.widecol2 {
+		height: 100%;
+		width: 100%;
+	}
+	
+	.img {
+		background-color: #E0FFFF;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	body {
+		display: block;
+	}
+	
+	.widecol {
+		height: 50%;
+		width: 100%;
+		display: block;
+		
+	}
+	
+	.title {
+		height: 10%;
+		width: 100%;
+		font-size: 45px;
+	}
+	
+	.places {
+		height: 10%;
+		width: 100%;
+		
+	}
+	
+	.smallboxes {
+		font-size: 25px;
+	}
+	
+	.mainimg {
+		height: 70%;
+		width: 100%;
+	}
+	
+	.places {
+		height: 20%;
+		width: 100%;
+	}
+	
+	.widecol2 {
+		height: 100%;
+		width: 100%;
+		display: block;
+	}
+	
+	.narrowcol {
+		height: 50%;
+		width: 100%;
+		display: block;
+		background-color: #E0FFFF;
+	}
+	
+	.img {
+		height: 50%;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #E0FFFF;
+	}
+}
