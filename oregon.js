@@ -74,21 +74,9 @@ function changeCity() {
 	CheckIfDone();//after you click the city button it checks if the rest of the buttons have been clicked
 }
 
-function addColorS() {
-	s.classList.remove("gray");
-} 
-
-function addColorB() {
-	b.classList.remove("gray");
-} 
-
-function addColorF() {
-	f.classList.remove("gray");
-} 
-
-function addColorC() {
-	c.classList.remove("gray");
-} 
+function addColor(el) {
+	el.classlist.remove("gray");
+}
 
 function CheckIfDone () {
 	if (x>1 && y>1 && z>1 && w>1) { //each varible is set to 2 when the specific button is clicked, so this is checking if all the buttons have been clicked
