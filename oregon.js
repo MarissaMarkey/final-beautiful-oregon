@@ -9,16 +9,19 @@ var z=0;
 var w=0;
 var done=0;
 
-images = [s,b,f,c]
+//images = [s,b,f,c]
 
-function TurnGray()  {
-for (let i=0, i<4; i++) {
-	images[i].classList.add ("gray");
-}
-}
+//function TurnGray()  {
+//for (let i=0, i<4; i++)
+	//images[i].classList.add ("gray");
+//}
 
 
 function changeSand() {
+	s.classList.add ("gray");
+	b.classList.add ("gray");
+	f.classList.add ("gray");
+	c.classList.add ("gray");
 	s.src= "images/sandunes2.png"
 	b.src = "images/jumpingsandunes.png";
 	f.src = "images/dunebuggy.png";
@@ -32,6 +35,10 @@ function changeSand() {
 }
 
 function changeForest() {
+	s.classList.add ("gray");
+	b.classList.add ("gray");
+	f.classList.add ("gray");
+	c.classList.add ("gray");
 	s.src= "images/waterfall.png"
 	b.src = "images/oregonlakes.png";
 	f.src = "images/forest+falls.png";
@@ -44,6 +51,10 @@ function changeForest() {
 }
 
 function changeBeach() {
+	s.classList.add ("gray");
+	b.classList.add ("gray");
+	f.classList.add ("gray");
+	c.classList.add ("gray");
 	s.src= "images/lighthouse.jpg"
 	b.src = "images/oregonbeachjump.png";
 	f.src = "images/beach.png";
@@ -56,6 +67,10 @@ function changeBeach() {
 }
 
 function changeCity() {
+	s.classList.add ("gray");
+	b.classList.add ("gray");
+	f.classList.add ("gray");
+	c.classList.add ("gray");
 	s.src= "images/portland2.jpg"
 	b.src = "images/salem.jfif";
 	f.src = "images/street.jpg";
