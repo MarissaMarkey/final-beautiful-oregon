@@ -9,11 +9,11 @@ var z=0;
 var w=0;
 var done=0;
 
-imagesArray = [s,b,f,c]
+images = [s,b,f,c]
 
 function turnGray()  {
 for (let i=0, i<4; i++) {
-	changeSandArray[i].classList.add ("gray");
+	images[i].classList.add ("gray");
 }
 }
 
@@ -73,6 +73,7 @@ function changeCity() {
 
 function addColor(el) {
 	el.classlist.remove("gray");
+	console.log(el);
 }
 
 function CheckIfDone () {
