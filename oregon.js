@@ -9,6 +9,8 @@ var z=0;
 var w=0;
 var done=0;
 
+changeSandArray = [s,b,f,c]
+
 function changeSand() {
 	s.classList.add ("gray");
 	b.classList.add ("gray");
