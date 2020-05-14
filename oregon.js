@@ -9,7 +9,7 @@ var z=0;
 var w=0;
 var done=0;
 
-//images = [s,b,f,c]
+//images = [s,b,f,c];
 
 //function TurnGray()  {
 //for (let i=0, i<4; i++)
@@ -82,9 +82,20 @@ function changeCity() {
 	CheckIfDone();//after you click the city button it checks if the rest of the buttons have been clicked
 }
 
-function addColor(el) {
-	el.classlist.remove("gray");
-	console.log(el);
+function addColorS() {
+	s.classlist.remove("gray");
+}
+
+function addColorB() {
+	b.classlist.remove("gray");
+}
+
+function addColorF() {
+	f.classlist.remove("gray");
+}
+
+function addColorC() {
+	c.classlist.remove("gray");
 }
 
 function CheckIfDone () {
