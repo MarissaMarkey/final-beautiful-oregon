@@ -9,7 +9,7 @@ var z=0;
 var w=0;
 var done=0;
 
-//images = [s,b,f,c];
+//var images = [s,b,f,c];
 
 //function TurnGray() {
 	//var i;
