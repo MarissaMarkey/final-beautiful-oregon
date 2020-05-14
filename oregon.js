@@ -9,14 +9,14 @@ var z=0;
 var w=0;
 var done=0;
 
-images = [s,b,f,c];
+//images = [s,b,f,c];
 
-function TurnGray() {
-	var i;
-	for (i=0, i<4; i++) {
-		images[i].classList.add("gray");
-	}
-}
+//function TurnGray() {
+	//var i;
+	//for (i=0, i<4; i++) {
+		//images[i].classList.add("gray");
+	//}
+//}
 
 
 function changeSand() {
