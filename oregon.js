@@ -11,8 +11,9 @@ var done=0;
 
 images = [s,b,f,c];
 
-function TurnGray()  {
-for (let i=0, i<4; i++) {
+function TurnGray() {
+var i;
+for (i=0, i<4; i++) {
 	images[i].classList.add ("gray");
 	}
 }
