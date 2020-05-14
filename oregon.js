@@ -19,7 +19,7 @@ for (let i=0, i<4; i++) {
 
 
 function changeSand() {
-	TurnGray
+	TurnGray()
 	s.src= "images/sandunes2.png"
 	b.src = "images/jumpingsandunes.png";
 	f.src = "images/dunebuggy.png";
@@ -33,7 +33,7 @@ function changeSand() {
 }
 
 function changeForest() {
-	TurnGray
+	TurnGray()
 	s.src= "images/waterfall.png"
 	b.src = "images/oregonlakes.png";
 	f.src = "images/forest+falls.png";
@@ -46,7 +46,7 @@ function changeForest() {
 }
 
 function changeBeach() {
-	TurnGray
+	TurnGray()
 	s.src= "images/lighthouse.jpg"
 	b.src = "images/oregonbeachjump.png";
 	f.src = "images/beach.png";
@@ -59,7 +59,7 @@ function changeBeach() {
 }
 
 function changeCity() {
-	TurnGray
+	TurnGray()
 	s.src= "images/portland2.jpg"
 	b.src = "images/salem.jfif";
 	f.src = "images/street.jpg";
