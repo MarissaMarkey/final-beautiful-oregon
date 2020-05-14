@@ -9,19 +9,17 @@ var z=0;
 var w=0;
 var done=0;
 
-//images = [s,b,f,c];
+images = [s,b,f,c];
 
-//function TurnGray()  {
-//for (let i=0, i<4; i++)
-	//images[i].classList.add ("gray");
-//}
+function TurnGray()  {
+for (let i=0, i<4; i++) {
+	images[i].classList.add ("gray");
+	}
+}
 
 
 function changeSand() {
-	s.classList.add ("gray");
-	b.classList.add ("gray");
-	f.classList.add ("gray");
-	c.classList.add ("gray");
+	TurnGray
 	s.src= "images/sandunes2.png"
 	b.src = "images/jumpingsandunes.png";
 	f.src = "images/dunebuggy.png";
