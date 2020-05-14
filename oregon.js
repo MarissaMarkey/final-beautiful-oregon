@@ -33,10 +33,7 @@ function changeSand() {
 }
 
 function changeForest() {
-	s.classList.add ("gray");
-	b.classList.add ("gray");
-	f.classList.add ("gray");
-	c.classList.add ("gray");
+	TurnGray
 	s.src= "images/waterfall.png"
 	b.src = "images/oregonlakes.png";
 	f.src = "images/forest+falls.png";
@@ -49,10 +46,7 @@ function changeForest() {
 }
 
 function changeBeach() {
-	s.classList.add ("gray");
-	b.classList.add ("gray");
-	f.classList.add ("gray");
-	c.classList.add ("gray");
+	TurnGray
 	s.src= "images/lighthouse.jpg"
 	b.src = "images/oregonbeachjump.png";
 	f.src = "images/beach.png";
@@ -65,10 +59,7 @@ function changeBeach() {
 }
 
 function changeCity() {
-	s.classList.add ("gray");
-	b.classList.add ("gray");
-	f.classList.add ("gray");
-	c.classList.add ("gray");
+	TurnGray
 	s.src= "images/portland2.jpg"
 	b.src = "images/salem.jfif";
 	f.src = "images/street.jpg";
