@@ -19,7 +19,6 @@ for (let i=0, i<4; i++) {
 
 
 function changeSand() {
-	TurnGray()
 	s.src= "images/sandunes2.png"
 	b.src = "images/jumpingsandunes.png";
 	f.src = "images/dunebuggy.png";
