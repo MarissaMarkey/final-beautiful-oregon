@@ -12,9 +12,9 @@ var done=0;
 images = [s,b,f,c];
 
 function TurnGray() {
-var i;
-for (i=0, i<4; i++) {
-	images[i].classList.add ("gray");
+	var i;
+	for (i=0, i<4; i++) {
+		images[i].classList.add("gray");
 	}
 }
 
